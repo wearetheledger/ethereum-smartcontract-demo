@@ -1,0 +1,14 @@
+{
+  "name": "ethereum-smartcontract-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kevin Leyssens <kevin.leyssens@theledger.be>",
+  "license": "MIT",
+  "scripts": {
+    "test": "truffle test --network testing"
+  },
+  "dependencies": {
+    "ethereumjs-testrpc": "^6.0.3",
+    "truffle": "^4.0.1"
+  }
+}
